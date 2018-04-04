@@ -1,0 +1,33 @@
+{
+  "name": "cryptocurrencycharting",
+  "version": "1.0.0",
+  "description": "Charting cryptocurrency historical price data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -d --watch",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bstanger/cryptocurrencycharting.git"
+  },
+  "author": "Becca Stanger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bstanger/cryptocurrencycharting/issues"
+  },
+  "homepage": "https://github.com/bstanger/cryptocurrencycharting#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.5.0"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}
